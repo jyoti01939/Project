@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyoti Fitness center</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Baloo+Tamma+2:wght@700&family=Open+Sans&family=Oswald&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Tamma 2', cursive;
+        color: rgb(0, 0, 0);
+        margin: 0px;
+        padding: 0px;
+        background: url('img/jg.jpg');
+        /* opacity: 0.8; */
+    }
+
+    .left {
+        /* border: 2px solid blue; */
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 128px
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 10px;
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    .mid {
+        /* border: 2px solid rgb(233, 250, 1); */
+        display: block;
+        width: 53%;
+        margin: 20px auto;
+    }
+
+    .right {
+        /* border: 2px solid rgb(0, 255, 34); */
+        display: inline-block;
+        position: absolute;
+        right: 36px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    .navbar li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(88, 76, 76);
+    }
+
+    .btn {
+        margin: 12px 9px;
+        color: white;
+        background-color: rgb(3, 8, 83);
+        padding: 6px 11px;
+        border: 2px solid white;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Baloo Tamma 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(253, 132, 132);
+    }
+
+    .container {
+        /* border: 2px solid yellow; */
+        margin: 23px 301px;
+        border-radius: 14px;
+        width: 58%;
+        padding: 23px;
+        display: block;
+        color: rgb(255, 0, 106);
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        font-family: 'Baloo Tamma 2', cursive;
+
+    }
+
+    .container h1 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/gym.png.jpg" alt="">
+            <div>Jyoti Fitness Center</div>
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- rigth box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym Gorakhpur now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter the Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Mobile no.">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+
+    </div>
+</body>
+
+</html>
